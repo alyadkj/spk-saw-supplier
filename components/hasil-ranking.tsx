@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useSupplierStore } from '@/lib/store'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts'
-import { Trophy, Medal, Download, Eye } from 'lucide-react'
+import { Trophy, Medal, Eye } from 'lucide-react'
 
 interface RankingResult {
   supplierId: string
@@ -282,14 +282,6 @@ export function HasilRanking() {
           </div>
         </div>
       )}
-
-      {/* Export Button */}
-      <div className="flex justify-end gap-3">
-        <button className="flex items-center gap-2 px-4 py-2 rounded-lg border border-border hover:bg-secondary transition-colors font-medium text-foreground">
-          <Download className="w-4 h-4" />
-          Export PDF
-        </button>
-      </div>
 
       {/* Info Box */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
