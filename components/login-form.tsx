@@ -35,7 +35,7 @@ export function LoginForm() {
             <span className="text-2xl font-bold text-white">SPK</span>
           </div>
           <h1 className="text-2xl font-bold text-gray-900">SPK Supplier</h1>
-          <p className="text-gray-500 mt-1">CV. Alja Digital Printing</p>
+          <p className="text-gray-500 mt-1">CV. Berkah Jaya Pocis</p>
         </div>
 
         {/* Login Card */}

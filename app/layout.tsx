@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'SPK Supplier - CV. Alja Digital Printing',
+  title: 'SPK Supplier - CV. Berkah Jaya Pocis',
   description: 'Sistem Pendukung Keputusan Pemilihan Supplier Terbaik dengan Metode SAW',
   generator: 'v0.app',
   icons: {
