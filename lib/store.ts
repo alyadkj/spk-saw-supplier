@@ -54,7 +54,7 @@ const DEFAULT_KRITERIA: Kriteria[] = [
   { id: '5', nama: 'Ketersediaan Stok', bobot: 10, jenis: 'benefit' },
 ]
 
-// Default 5 suppliers - Sesuai Tabel 3.2
+// Default 5 supplitiers - Sesuai Tabel 3.2
 const DEFAULT_SUPPLIERS: Supplier[] = [
   { id: '1', nama: 'Toko Alif Stationary', kontak: '081234567890', email: 'tokoalif@email.com', alamat: 'Jl. Industri Percetakan No.1, Jakarta' },
   { id: '2', nama: 'CV Jaya Printing', kontak: '082345678901', email: 'jayaprinting@email.com', alamat: 'Jl. Perdagangan No.2, Surabaya' },
@@ -80,11 +80,11 @@ interface SupplierStore {
 
 // Default penilaian data - Sesuai Tabel 3.3 dokumen acuan
 const DEFAULT_PENILAIAN: Penilaian[] = [
-  // A1: Toko Alif Stationary (80, 90, 85, 88, 80)
+  // A1: Toko Alif Stationary (80, 100, 100, 100, 80)
   { id: '1', supplierId: '1', kriteriaId: '1', nilai: 80 },
-  { id: '2', supplierId: '1', kriteriaId: '2', nilai: 90 },
-  { id: '3', supplierId: '1', kriteriaId: '3', nilai: 85 },
-  { id: '4', supplierId: '1', kriteriaId: '4', nilai: 88 },
+  { id: '2', supplierId: '1', kriteriaId: '2', nilai: 100 },
+  { id: '3', supplierId: '1', kriteriaId: '3', nilai: 100 },
+  { id: '4', supplierId: '1', kriteriaId: '4', nilai: 100 },
   { id: '5', supplierId: '1', kriteriaId: '5', nilai: 80 },
   // A2: CV Jaya Printing (85, 88, 90, 80, 85)
   { id: '6', supplierId: '2', kriteriaId: '1', nilai: 85 },
